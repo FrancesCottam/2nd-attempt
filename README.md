@@ -1,0 +1,2 @@
+The time is 21.55 on the 26th January 2022.
+I am very much enjoying trying to remember all the basics of the foundation course of the Odin Project. My main issue is that my work life balance has never been great and work takes up far too much of my time, leaving me too little time to code. Also meaning my head is very full of other things. This just adds to the challenge and I am definitely learning.
