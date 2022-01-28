@@ -2,34 +2,45 @@
     background-color:#1f2937;
     color:#e5e7eb;
     font-size: 20px; font-weight:bold;
-    display: flex;
-    justify-content:flex-end;
-    align-items: start;
-    gap: 20px;
     padding-bottom: 0;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 20px; 
-
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    
+    
  }   
-.headerlogo{
+h3 {
     color: #f9faf8;
     font: size 36px;
-    display:flex;
-    justify-content: flex-start;
-    
+    text-align:start ;    
 }
-
+a{
+    display:flex;
+    align-items: flex-start;
+ justify-content: flex-end;
+}
 .section1 {
     background-color:#1f2937;
     color: #e5e7eb;
     font-size:18px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
-    padding: 50px;
+    padding: 100px;
     display:flex;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;   
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around; 
+      
 }
-
+h1{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: left;
+}
+h2{
+  color:#1f2937; font-size: 36px;
+  text-align: justify;
+  align-items: flex-start;  
+}
 .section2 {
 
 color:#1f2937;
@@ -37,7 +48,10 @@ font: size 36px;font-weight: bolder;
 padding: 40px;
 display:flex;
 flex-direction: row;
+flex:01;
 flex-wrap: wrap;
+
+
 
 gap: 20px;
 }
@@ -47,6 +61,7 @@ background-color:#e5e7eb;
 color:#1f2937;
 font-size: 36px;font-weight: lighter;
 font-style: italic;
+padding: 75px;
 }
 
 
