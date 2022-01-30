@@ -6,7 +6,7 @@
     justify-content: flex-end;
     gap: 30px;
     padding-top: 40px;
-    padding-right: 40px;   
+    padding-right: 200px;   
 }
 .section1 {
     background-color:#1f2937;
@@ -23,47 +23,101 @@
 }
 
 img{
-    border-radius: 60px;
-    float:right;
+    border-radius: 60px;   
 }
 h1{
     color:#f9faf8;
     font-size: 48px;
     font-weight: bolder;
-    max-width: 400px;
-    display:flex;   
+    max-width: 400px;      
 }
 p1{
     font-size:20px; font-weight:bold;
     color:#f9faf8;
-    max-width: 450px;
-    display:flex;   
+    max-width: 450px;     
 }
-
-
- p {
-
+.button{
+    background-color:#3882F6 ;
+    color:#f9faf8;
+    font-size: 20px;font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 100px;
+    padding: 10px;
+    margin-top: 10px;   
+}
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px; 
  }  
 
 .section2 {
 color:#1f2937;
-font: size 18px;font-weight: bolder;
-padding: 40px;
+height: 250px;
+padding-left: 320px;
+padding-right: 320px;
+padding-bottom: 60px;
+column-gap:40px;
 display:flex;
-flex-direction: row;
+justify-content:center;
 flex-wrap: wrap;
-gap: 20px;
+}
+p2, p3, p4, p5 {width: 150px;
+    font: size 18px;font-weight: bolder;
+    text-align: center;   
 }
 
 .section3{
 background-color:#e5e7eb;
 color:#1f2937;
-font-size: 36px;font-weight: lighter;
-font-style: italic;
-padding: 75px;
+text-align: justify;
+padding-bottom: 100px;
+padding-left: 350px;
+padding-right: 350px;
+padding-top: 100px;
+}
+p6{
+    font-size: 36px;font-weight: lighter;
+    font-style: italic;
+}
+p7{
+    display:flex;
+    font-size: 18px;font-weight: bolder;
+    justify-content: flex-end;
 }
 
+.footer{
+    background-color:#3882F6 ;
+    color: #e5e7eb ;
+    font-size: 20px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding: 40px;
+    display: flex;
+    flex-direction:column;
 
-
-
+}
+h3{
+    font-weight: bolder;
+}
+p8, p9{    
+}
     
+.button2{
+    max-width: 100px;
+display:flex;
+align-self: flex-end;
+justify-self: center;
+outline-color:#f9faf8;
+outline-width: thick;
+outline-style: solid;
+padding: 20px;
+border-radius: 10px;
+
+}
