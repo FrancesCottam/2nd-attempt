@@ -8,6 +8,13 @@
     padding-top: 40px;
     padding-right: 200px;   
 }
+a:link, a:visited{
+    text-decoration: none;
+    color: #f9faf8;
+    text-align-last: right;
+}
+
+
 .section1 {
     background-color:#1f2937;
     display:flex;
@@ -111,9 +118,10 @@ h3{
     max-width: 100px;
 align-self: flex-end;
 outline-color:#f9faf8;
-outline-width: thick;
+outline-width: thin;
 outline-style: solid;
+box-shadow: 15px,20px;
 margin-top: -80px;
-padding: 20px;
+padding: 15px;
 border-radius: 10px;
 }
